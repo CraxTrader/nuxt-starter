@@ -1,0 +1,28 @@
+[{
+    "id": 1,
+    "platformName": "WINDOWS",
+    "iconUrl": "https://",
+    "linkUrl": "windows",
+    "published": "true",
+    "created_at": "000",
+    "updated_at": "000"
+  },
+  {
+    "id": 2,
+    "platformName": "MAC OS",
+    "iconUrl": "https://",
+    "linkUrl": "mac",
+    "published": "true",
+    "created_at": "000",
+    "updated_at": "000"
+  },
+  {
+    "id": 3,
+    "platformName": "ANDROID",
+    "iconUrl": "https://",
+    "linkUrl": "android",
+    "published": "true",
+    "created_at": "000",
+    "updated_at": "000"
+  }
+]

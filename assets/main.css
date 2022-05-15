@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&family=Signika:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  h1 {
+    @apply text-2xl font-medium
+  }
+
+  h2 {
+    @apply text-xl;
+  }
+
+  h3 {
+    @apply text-lg;
+  }
+
+  h4 {
+    @apply text-base;
+  }
+
+  ul.styled {
+    @apply my-3
+  }
+
+  ul.styled li {
+    @apply list-disc ml-10
+  }
+}
+
+/* @import url('./interstate.css'); */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: inherit;
+  scroll-behavior: smooth;
+  color: #334155;
+  background-color: #eeeeee;
+  font-family: 'Signika', sans-serif;
+}
+
+/**
+Use a more readable tab size (opinionated).
+*/
+:root {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+} */
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 540px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 720px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 960px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .container {
+    /* max-width: 1140px; */
+    max-width: 1080px;
+  }
+}
+
+@media (min-width: 1320px) {
+  .container {
+    /* max-width: 1320px; */
+    max-width: 1200px;
+  }
+}
+
+pre {
+  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 1em;
+}
+
+.iman-arrow {
+  background: linear-gradient(65deg, red 50%, transparent 50%, transparent);
+  /* linear-gradient(45deg, black 25%, transparent 25%, transparent), */
+  /* linear-gradient(-45deg, black 25%, transparent 25%, transparent), */
+  /* linear-gradient(45deg, transparent 75%, black 75%), */
+  /* linear-gradient(-45deg, transparent 75%, black 75%); */
+}
